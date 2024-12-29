@@ -7,6 +7,7 @@ import 'package:movies/utils/service_locater.dart';
 import 'package:movies/utils/theme.dart';
 
 void main() async {
+  // finish 
   setUpLocator();
   await Hive.initFlutter();
   Hive.registerAdapter(PopularFilmModelAdapter());
